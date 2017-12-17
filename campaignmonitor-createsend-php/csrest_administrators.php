@@ -36,7 +36,7 @@ class CS_REST_Administrators extends CS_REST_Wrapper_Base {
      * @param $transport The transport to use. Used for dependency injection
      * @access public
      */
-    function CS_REST_Administrators (    
+    function __construct (    
     $auth_details,
     $protocol = 'https',
     $debug_level = CS_REST_LOG_NONE,
