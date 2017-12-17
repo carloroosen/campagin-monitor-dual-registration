@@ -37,7 +37,7 @@ class CS_REST_Subscribers extends CS_REST_Wrapper_Base {
      * @param $transport The transport to use. Used for dependency injection
      * @access public
      */
-    function CS_REST_Subscribers (
+    function __construct (
     $list_id,
     $auth_details,
     $protocol = 'https',
